@@ -1,0 +1,53 @@
+# Loading project Pre-Assessment
+# Compile of adder_subtractor1.v failed with 1 errors.
+# Compile of adder_subtractor1.v failed with 1 errors.
+# Compile of adder_subtractor1.v failed with 2 errors.
+# Compile of adder_subtractor1.v failed with 1 errors.
+# Compile of adder_subtractor1.v failed with 1 errors.
+# Compile of adder_subtractor1.v failed with 1 errors.
+# Compile of adder_subtractor1.v was successful.
+# Compile of testbench.v failed with 2 errors.
+# Compile of testbench.v failed with 2 errors.
+# Compile of testbench.v failed with 2 errors.
+# Compile of testbench.v was successful.
+vsim work.tb_code
+# vsim work.tb_code 
+# Start time: 16:34:42 on Jul 08,2024
+# Loading work.tb_code
+# Loading work.code
+add wave -position insertpoint sim:/tb_code/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:35:58 on Jul 08,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 13
+# Compile of testbench.v failed with 1 errors.
+# Compile of testbench.v was successful.
+vsim work.tb_code
+# vsim work.tb_code 
+# Start time: 16:37:43 on Jul 08,2024
+# Loading work.tb_code
+# Loading work.code
+add wave -position insertpoint sim:/tb_code/*
+run
+quit -sim
+# End time: 16:38:33 on Jul 08,2024, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 3
+# Compile of testbench.v was successful.
+vsim work.tb_code
+# vsim work.tb_code 
+# Start time: 16:39:25 on Jul 08,2024
+# Loading work.tb_code
+# Loading work.code
+add wave -position insertpoint sim:/tb_code/*
+run
+quit -sim
+# End time: 16:41:41 on Jul 08,2024, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 2
