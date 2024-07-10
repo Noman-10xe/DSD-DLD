@@ -1,15 +1,1 @@
-{/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Pre-Assessment/Code/testbench.v} {1 {vlog -work work -stats=none {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Pre-Assessment/Code/testbench.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_code
 
-Top level modules:
-	tb_code
-
-} {} {}} {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Pre-Assessment/Code/adder_subtractor1.v} {1 {vlog -work work -stats=none {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Pre-Assessment/Code/adder_subtractor1.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module code
-
-Top level modules:
-	code
-
-} {} {}}

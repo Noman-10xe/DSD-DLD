@@ -1,53 +1,106 @@
 # Loading project Pre-Assessment
-# Compile of adder_subtractor1.v failed with 1 errors.
-# Compile of adder_subtractor1.v failed with 1 errors.
-# Compile of adder_subtractor1.v failed with 2 errors.
-# Compile of adder_subtractor1.v failed with 1 errors.
-# Compile of adder_subtractor1.v failed with 1 errors.
-# Compile of adder_subtractor1.v failed with 1 errors.
-# Compile of adder_subtractor1.v was successful.
-# Compile of testbench.v failed with 2 errors.
-# Compile of testbench.v failed with 2 errors.
-# Compile of testbench.v failed with 2 errors.
-# Compile of testbench.v was successful.
-vsim work.tb_code
-# vsim work.tb_code 
-# Start time: 16:34:42 on Jul 08,2024
-# Loading work.tb_code
-# Loading work.code
-add wave -position insertpoint sim:/tb_code/*
-run
-run
-run
-run
-run
-run
-run
+# reading /home/xe-user106/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Working Directory
+cd {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Code}
+# reading /home/xe-user106/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Assignment 1
+# Error opening /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v
+# Path name '/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v' doesn't exist.
+# Error opening /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v
+# Path name '/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v' doesn't exist.
+# Error opening /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v
+# Path name '/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v' doesn't exist.
+# Error opening /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v
+# Path name '/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/parity.v' doesn't exist.
+# Compile of parity.v failed with 1 errors.
+# Compile of parity.v failed with 2 errors.
+# Compile of parity.v failed with 1 errors.
+# Compile of parity.v failed with 2 errors.
+# Compile of parity.v failed with 1 errors.
+# Compile of parity.v was successful.
+# Compile of parity_tb.v was successful.
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 10:52:28 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity
+add wave -position insertpoint sim:/test_tb/*
 run
 run
 quit -sim
-# End time: 16:35:58 on Jul 08,2024, Elapsed time: 0:01:16
-# Errors: 0, Warnings: 13
-# Compile of testbench.v failed with 1 errors.
-# Compile of testbench.v was successful.
-vsim work.tb_code
-# vsim work.tb_code 
-# Start time: 16:37:43 on Jul 08,2024
-# Loading work.tb_code
-# Loading work.code
-add wave -position insertpoint sim:/tb_code/*
+# End time: 10:54:25 on Jul 10,2024, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 15
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 10:55:33 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity
+add wave -position insertpoint sim:/test_tb/*
 run
 quit -sim
-# End time: 16:38:33 on Jul 08,2024, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 3
-# Compile of testbench.v was successful.
-vsim work.tb_code
-# vsim work.tb_code 
-# Start time: 16:39:25 on Jul 08,2024
-# Loading work.tb_code
-# Loading work.code
-add wave -position insertpoint sim:/tb_code/*
+# End time: 10:56:02 on Jul 10,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# Compile of parity.v was successful.
+# Compile of parity_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 10:58:05 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity_generator
+add wave -position insertpoint sim:/test_tb/*
 run
 quit -sim
-# End time: 16:41:41 on Jul 08,2024, Elapsed time: 0:02:16
+# End time: 10:58:59 on Jul 10,2024, Elapsed time: 0:00:54
 # Errors: 0, Warnings: 2
+# Compile of parity_tb.v was successful.
+# Compile of parity_generator.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of parity_generator.v failed with 2 errors.
+# Compile of parity_tb.v was successful.
+# Compile of parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of parity_tb.v was successful.
+# Compile of parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 11:04:24 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity_generator
+add wave -position insertpoint sim:/test_tb/*
+run
+quit -sim
+# End time: 11:05:41 on Jul 10,2024, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 7
+# Compile of parity_tb.v was successful.
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 11:06:32 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity_generator
+add wave -position insertpoint sim:/test_tb/*
+run
+run
+quit -sim
+# End time: 11:07:51 on Jul 10,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# Compile of parity_generator.v was successful.
+# Load canceled
+vsim work.test_tb
+# vsim work.test_tb 
+# Start time: 11:09:08 on Jul 10,2024
+# Loading work.test_tb
+# Loading work.parity_generator
+add wave -position insertpoint sim:/test_tb/*
+run
+run
+quit -sim
+# Project file /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Code/Assignment 1.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 11:22:38 on Jul 10,2024, Elapsed time: 0:13:30
+# Errors: 0, Warnings: 1
+# Project file /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Code/Assignment 1.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Code/Assignment 1.mpf is write protected, data cannot be saved.
+# Unable to save project.
