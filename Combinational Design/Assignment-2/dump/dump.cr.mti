@@ -1,0 +1,15 @@
+{/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Assignment-2/code/tb_timing_diagram.v} {1 {vlog -work work -stats=none {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Assignment-2/code/tb_timing_diagram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_CombinationalLogic
+
+Top level modules:
+	tb_CombinationalLogic
+
+} {} {}} {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Assignment-2/dump/timing_diagram.v} {1 {vlog -work work -stats=none {/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Assignment-2/dump/timing_diagram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CombinationalLogic
+
+Top level modules:
+	CombinationalLogic
+
+} {} {}}

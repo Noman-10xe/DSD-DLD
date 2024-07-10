@@ -1,0 +1,37 @@
+# Loading project dump
+vsim work.CombinationalLogic
+# vsim work.CombinationalLogic 
+# Start time: 17:07:02 on Jul 10,2024
+# Loading work.CombinationalLogic
+quit -sim
+# End time: 17:07:11 on Jul 10,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
+vsim work.tb_CombinationalLogic
+# vsim work.tb_CombinationalLogic 
+# Start time: 17:07:17 on Jul 10,2024
+# Loading work.tb_CombinationalLogic
+# Loading work.CombinationalLogic
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'CombinationalLogic' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_CombinationalLogic/uut File: /home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Combinational Design/Assignment-2/dump/timing_diagram.v
+# Error loading design
+# End time: 17:07:17 on Jul 10,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of tb_timing_diagram.v was successful.
+# Compile of timing_diagram.v was successful.
+vsim work.tb_CombinationalLogic
+# vsim work.tb_CombinationalLogic 
+# Start time: 17:08:05 on Jul 10,2024
+# Loading work.tb_CombinationalLogic
+# Loading work.CombinationalLogic
+add wave -position insertpoint sim:/tb_CombinationalLogic/*
+run
+# A=1, B=0, C=0, Out=1
+add wave -position insertpoint sim:/tb_CombinationalLogic/uut/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# A=1, B=0, C=0, Out=1
+# Break key hit
+quit -sim
+# End time: 17:31:09 on Jul 10,2024, Elapsed time: 0:23:04
+# Errors: 0, Warnings: 1
