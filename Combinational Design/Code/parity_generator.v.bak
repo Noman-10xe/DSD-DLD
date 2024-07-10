@@ -1,0 +1,16 @@
+
+
+module parity_generator ( input [3:0] data, output reg parity);
+
+
+wire xor_result;
+
+	xor_result = data[0] ^ data[1] ^ data[2] ^ data[3];
+always @* 
+	begin
+		if (xor_result)
+		assign parity = 1'b1;
+		else
+		assign parity = 1'b0;
+	end
+endmodule
