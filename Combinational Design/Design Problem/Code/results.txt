@@ -1,0 +1,10 @@
+data_in= 36, shift_amount=1, shift_direction=1, result= 72
+data_in= 99, shift_amount=5, shift_direction=1, result= 96
+data_in=101, shift_amount=2, shift_direction=1, result=148
+data_in= 13, shift_amount=6, shift_direction=1, result= 64
+data_in=237, shift_amount=4, shift_direction=1, result=208
+data_in=198, shift_amount=5, shift_direction=0, result=  6
+data_in=229, shift_amount=7, shift_direction=0, result=  1
+data_in=143, shift_amount=2, shift_direction=0, result= 35
+data_in=232, shift_amount=5, shift_direction=0, result=  7
+data_in=189, shift_amount=5, shift_direction=1, result=160

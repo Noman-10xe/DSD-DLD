@@ -1,0 +1,19 @@
+# vsim -c -do "run -all; exit" tb_shifter_circuit 
+# Start time: 11:34:51 on Jul 11,2024
+# Loading work.tb_shifter_circuit
+# Loading work.shifter_circuit
+# run -all
+# Test passed for data_in= 36, shift_amount=1, shift_direction=1
+# Test passed for data_in= 99, shift_amount=5, shift_direction=1
+# Test passed for data_in=101, shift_amount=2, shift_direction=1
+# Test passed for data_in= 13, shift_amount=6, shift_direction=1
+# Test passed for data_in=237, shift_amount=4, shift_direction=1
+# Test passed for data_in=198, shift_amount=5, shift_direction=0
+# Test passed for data_in=229, shift_amount=7, shift_direction=0
+# Test passed for data_in=143, shift_amount=2, shift_direction=0
+# Test passed for data_in=232, shift_amount=5, shift_direction=0
+# Test passed for data_in=189, shift_amount=5, shift_direction=1
+# ** Note: $finish    : tb_shifter_circuit.v(43)
+#    Time: 100 ps  Iteration: 0  Instance: /tb_shifter_circuit
+# End time: 11:34:51 on Jul 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
