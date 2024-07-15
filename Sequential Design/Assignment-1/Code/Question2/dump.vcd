@@ -1,0 +1,172 @@
+$date
+	Sun Jul 14 20:11:44 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_FSM $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 1 # X $end
+$var reg 1 $ Y $end
+$var wire 1 % state $end
+
+$scope module dut $end
+$var parameter 1 & A $end
+$var parameter 1 ' B $end
+$var wire 1 ( clk $end
+$var wire 1 ) rst $end
+$var wire 1 * X $end
+$var wire 1 + Y $end
+$var reg 1 , state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+x,
+b0 &
+b1 '
+x%
+x+
+x*
+0)
+0(
+$end
+#5
+1!
+1(
+0,
+0%
+#10
+0!
+0(
+#15
+1!
+1(
+#20
+1"
+0!
+1)
+0(
+#25
+1!
+1(
+#30
+0"
+0!
+0)
+0(
+#35
+1!
+1(
+#40
+0#
+0$
+0!
+0*
+0+
+0(
+#45
+1!
+1(
+#50
+0!
+0(
+#55
+1!
+1(
+#60
+1$
+0!
+1+
+0(
+#65
+1!
+1(
+#70
+0!
+0(
+#75
+1!
+1(
+#80
+1#
+0!
+1*
+0(
+#85
+1!
+1(
+#90
+0!
+0(
+#95
+1!
+1(
+#100
+0#
+0!
+0*
+0(
+#105
+1!
+1(
+#110
+0!
+0(
+#115
+1!
+1(
+#120
+1#
+0$
+0!
+1*
+0+
+0(
+#125
+1!
+1(
+1,
+1%
+#130
+0!
+0(
+#135
+1!
+1(
+#140
+1"
+0!
+1)
+0(
+0,
+0%
+#145
+1!
+1(
+#150
+0"
+0!
+0)
+0(
+#155
+1!
+1(
+1,
+1%
+#160
+0!
+0(
+#165
+1!
+1(

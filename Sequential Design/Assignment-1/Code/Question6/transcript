@@ -1,0 +1,9 @@
+# vsim -c -do "run -all; exit" tb_shift_register 
+# Start time: 16:13:37 on Jul 15,2024
+# Loading work.tb_shift_register
+# Loading work.shift_register
+# run -all
+# ** Note: $finish    : tb_shift_register.v(79)
+#    Time: 380 ps  Iteration: 0  Instance: /tb_shift_register
+# End time: 16:13:37 on Jul 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

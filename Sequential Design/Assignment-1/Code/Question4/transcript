@@ -1,0 +1,9 @@
+# vsim -c -do "run -all; exit" tb_freq_divider 
+# Start time: 15:06:17 on Jul 15,2024
+# Loading work.tb_freq_divider
+# Loading work.freq_divider
+# run -all
+# ** Note: $finish    : tb_freq_divider.v(25)
+#    Time: 275 ps  Iteration: 0  Instance: /tb_freq_divider
+# End time: 15:06:18 on Jul 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

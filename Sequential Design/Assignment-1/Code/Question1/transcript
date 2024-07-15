@@ -1,0 +1,10 @@
+# vsim -c -do "run -all; exit" tb_toggle_circuit 
+# Start time: 16:20:22 on Jul 14,2024
+# Loading work.tb_toggle_circuit
+# Loading work.toggle_circuit
+# Loading work.t_ff
+# run -all
+# ** Note: $finish    : tb_toggle_circuit.v(59)
+#    Time: 2550 ns  Iteration: 0  Instance: /tb_toggle_circuit
+# End time: 16:20:22 on Jul 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
