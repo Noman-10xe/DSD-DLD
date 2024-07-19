@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-2/Code/Question5
+vd_ff
+Z1 !s110 1721387183
+!i10b 1
+!s100 n@X6g2KF?eH[aan9NPUlJ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@>?N?kD9UQc@Lg@G`8dA40
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721386207
+8d_ff.v
+Fd_ff.v
+!i122 14
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1721387183.000000
+!s107 tb_synchronizer.v|synchronizer.v|d_ff.v|
+Z6 !s90 d_ff.v|synchronizer.v|tb_synchronizer.v|
+!i113 1
+Z7 tCvgOpt 0
+vsynchronizer
+R1
+!i10b 1
+!s100 ?:d?Woz9JGk`WR>]o4;]D3
+R2
+IEkehMYCO1RhQTSE5PPcB?1
+R3
+R0
+w1721385875
+8synchronizer.v
+Fsynchronizer.v
+!i122 14
+L0 3 13
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_synchronizer.v|synchronizer.v|d_ff.v|
+R6
+!i113 1
+R7
+vtb_synchronizer
+R1
+!i10b 1
+!s100 @kizX8Vlz7@^cBM`Wz=^<2
+R2
+IU6SZ<^Vb[n>9bca:GYU083
+R3
+R0
+w1721387180
+8tb_synchronizer.v
+Ftb_synchronizer.v
+!i122 14
+L0 2 46
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

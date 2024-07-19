@@ -1,0 +1,9 @@
+# vsim -c -do "run -all; exit" tb_button_press_synchronizer 
+# Start time: 12:14:05 on Jul 18,2024
+# Loading work.tb_button_press_synchronizer
+# Loading work.button_press_synchronizer
+# run -all
+# ** Note: $finish    : tb_button_press_synchronizer.v(39)
+#    Time: 160 ps  Iteration: 0  Instance: /tb_button_press_synchronizer
+# End time: 12:14:06 on Jul 18,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

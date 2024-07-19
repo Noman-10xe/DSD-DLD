@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-2/Code/Question1
+vbutton_press_synchronizer
+Z1 !s110 1721286843
+!i10b 1
+!s100 GM=OhHY1DPjiBS;iTnR172
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[W738JP?HRW92z4[iNaXV0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721286801
+8button_press_synchronizer.v
+Fbutton_press_synchronizer.v
+!i122 21
+L0 3 38
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1721286843.000000
+!s107 tb_button_press_synchronizer.v|button_press_synchronizer.v|
+Z6 !s90 button_press_synchronizer.v|tb_button_press_synchronizer.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb_button_press_synchronizer
+R1
+!i10b 1
+!s100 MFd;HoB1g?ig?ChNR5Kic3
+R2
+IHLYL2eedT6iod>7bS_U341
+R3
+R0
+w1721286839
+8tb_button_press_synchronizer.v
+Ftb_button_press_synchronizer.v
+!i122 21
+L0 2 42
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_button_press_synchronizer.v|button_press_synchronizer.v|
+R6
+!i113 1
+R7

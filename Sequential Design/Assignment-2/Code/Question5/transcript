@@ -1,0 +1,10 @@
+# vsim -c -do "run -all; exit" tb_synchronizer 
+# Start time: 16:06:24 on Jul 19,2024
+# Loading work.tb_synchronizer
+# Loading work.synchronizer
+# Loading work.d_ff
+# run -all
+# ** Note: $finish    : tb_synchronizer.v(44)
+#    Time: 370 ps  Iteration: 0  Instance: /tb_synchronizer
+# End time: 16:06:24 on Jul 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
