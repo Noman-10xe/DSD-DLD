@@ -1,0 +1,143 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Design-Problem
+vcounter5
+Z1 !s110 1721644175
+!i10b 1
+!s100 i38Z5lALk1Fb;z2J24QWe1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF6hkXndaAdH<ZFOcUN:H42
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721634120
+8counter5.v
+Fcounter5.v
+!i122 55
+L0 3 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1721644175.000000
+Z6 !s107 tb_stopwatch.v|stopwatch.v|d_ff.v|counter9.v|counter5.v|
+Z7 !s90 counter5.v|counter9.v|d_ff.v|stopwatch.v|tb_stopwatch.v|
+!i113 1
+Z8 tCvgOpt 0
+vcounter9
+R1
+!i10b 1
+!s100 ]h0NalXl8HkMD9jc[mJOc1
+R2
+IPZf]3Y^1cC_6WcicIN`BR3
+R3
+R0
+w1721634132
+8counter9.v
+Fcounter9.v
+!i122 55
+L0 2 22
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vd_ff
+R1
+!i10b 1
+!s100 jzYEbONQ?HCFc=7KfCDTD1
+R2
+IHTm;al8<mNK6UT6@aD8AR0
+R3
+R0
+w1721633813
+8d_ff.v
+Fd_ff.v
+!i122 55
+L0 3 10
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vstopwatch
+R1
+!i10b 1
+!s100 _4Ij1I5Wdh1S5>BClE;H>2
+R2
+ICl53M5G@izjPmb>?PEbRW2
+R3
+R0
+w1721638954
+8stopwatch.v
+Fstopwatch.v
+!i122 55
+L0 2 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtb_stopwatch
+R1
+!i10b 1
+!s100 eljJXIKoF<39Y=DW2F:603
+R2
+IL5<]M53lmVoTgK_>@H=Bi0
+R3
+R0
+w1721644162
+Z9 8tb_stopwatch.v
+Z10 Ftb_stopwatch.v
+!i122 55
+L0 4 31
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtestbench
+!s110 1721632302
+!i10b 1
+!s100 H2<i;;meD<`ekc1zGcC6b1
+R2
+IQZiPU;0bSkH6QabjNlmgk0
+R3
+R0
+w1721632297
+R9
+R10
+!i122 16
+L0 17 18
+R4
+r1
+!s85 0
+31
+!s108 1721632302.000000
+R6
+R7
+!i113 1
+R8
