@@ -1,0 +1,9 @@
+# vsim -c -do "run -all; exit" tb_fifo 
+# Start time: 18:07:30 on Jul 24,2024
+# Loading work.tb_fifo
+# Loading work.fifo
+# run -all
+# ** Note: $finish    : tb_fifo.v(135)
+#    Time: 920 ps  Iteration: 0  Instance: /tb_fifo
+# End time: 18:07:31 on Jul 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
