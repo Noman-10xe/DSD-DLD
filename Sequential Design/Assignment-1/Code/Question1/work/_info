@@ -10,23 +10,23 @@ z2
 cModel Technology
 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-1/Code
 vt_ff
-Z0 !s110 1720956016
+Z0 !s110 1721976307
 !i10b 1
-!s100 ?bHh^W]NSWBFDb7jP>=D@2
+!s100 TQ22ME<ON]84Ca5E<NVVW3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-InFljTZBa?:@AjRc0;AW]Y0
+IVZdmi;`F;3I<>WlPO_1lC2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-1/Code/Question1
-w1720955255
+w1721921214
 8t_ff.v
 Ft_ff.v
-!i122 64
-L0 1 12
+!i122 125
+L0 1 10
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1720956016.000000
+Z5 !s108 1721976307.000000
 !s107 toggle_circuit.v|t_ff.v|tb_toggle_circuit.v|
 Z6 !s90 tb_toggle_circuit.v|t_ff.v|toggle_circuit.v|
 !i113 1
@@ -34,16 +34,16 @@ Z7 tCvgOpt 0
 vtb_toggle_circuit
 R0
 !i10b 1
-!s100 _I>SCnC5EJRj?PS>o=>TB0
+!s100 lh5MZ4ieGJBin<>LPBn1`2
 R1
-I=JonFInb1;B2cNnV[HVN43
+Il]S^CS4IJCBIa6[=BdICh2
 R2
 R3
-w1720955386
+w1721976303
 8tb_toggle_circuit.v
 Ftb_toggle_circuit.v
-!i122 64
-L0 3 65
+!i122 125
+L0 3 86
 R4
 r1
 !s85 0
@@ -56,16 +56,16 @@ R7
 vtoggle_circuit
 R0
 !i10b 1
-!s100 P2TPO_fFELZCg1jdbfZNG3
+!s100 2TV]_K4_O=fJD65ic@Hcd1
 R1
-I`=CkXSLH>G2:W<Y:[YJzj1
+I_M@e:jN]0VP[C?GOgmk]60
 R2
 R3
-w1720804857
+w1721971781
 8toggle_circuit.v
 Ftoggle_circuit.v
-!i122 64
-L0 2 25
+!i122 125
+L0 2 9
 R4
 r1
 !s85 0

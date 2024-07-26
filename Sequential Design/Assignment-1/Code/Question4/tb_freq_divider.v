@@ -1,27 +1,62 @@
+//`timescale 1ns/1ns
 
-
-    module tb_freq_divider;
+module tb_freq_divider;
     reg clk, rst;
     wire y;
 
-    freq_divider m1 (.clk(clk), .rst(rst), .y(y));
+    freq_divider m1 (
+        .clk(clk),
+        .rst(rst),
+        .y(y)
+    );
 
-    always #5 clk = ~clk;
-    
     initial begin
-    $dumpvars;
-
-    clk = 0;
-    rst = 0;
-    #5;
-
-    rst = 1;
-    #10;
-
-    rst = 0;
-    #10;
-
-    #250;
-    $finish;
+        $dumpvars;
+        clk = 0;
+        rst = 0;
     end
-    endmodule
+
+    always #5 clk = ~clk; // clock generator
+
+    initial begin
+        
+        rst = 0;
+        @(posedge clk);
+
+        rst = 1;
+        repeat (5) @(posedge clk);
+
+        if (y != 0) begin
+            $display("Initial Output is Incorrect");
+        end
+        rst = 0;
+
+        // Test sequence
+        repeat (6) @(posedge clk);
+        
+        if (y != 1) begin
+            $display("Failed to divide the frequency by 10 after reset");
+        end
+        repeat (30) @(posedge clk);
+
+        rst = 1;
+        repeat (3) @(posedge clk);
+        if (y != 0) begin
+            $display("Error: Output is Incorrect");
+        end
+
+        rst = 0;
+
+        repeat (5.5) @(posedge clk); 
+        //@(negedge clk);
+        if (y != 1) begin
+            $display("Failed to divide the frequency by 10 after reset");
+            $finish;
+        end
+        repeat (22) @(posedge clk);
+
+        $display("All test cases Passed");
+
+        $finish;
+    end
+endmodule

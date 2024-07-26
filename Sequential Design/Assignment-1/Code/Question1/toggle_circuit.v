@@ -1,26 +1,10 @@
 
-module toggle_circuit (input button, clk, rst, output reg y);
+module toggle_circuit (input button, clk, rst, output y);
 
-reg Ta, Tb; 
-wire A, B;
+wire Q;
 
-t_ff m0(.t(Ta), .clk(clk), .rst(rst), .q(A));
-t_ff m1(.t(Tb), .clk(clk), .rst(rst), .q(B));
+t_ff m0(.t(button), .clk(clk), .rst(rst), .q(Q));
 
-always @(*)
-begin
-    assign Ta = (A & button ) | (B & (~button));
-    assign Tb = (~A & ~B & button) | (B & ~button);
-end
+assign y = Q;
 
-always @(posedge clk or posedge rst) begin
-    if (rst)
-        begin
-        y <= 1'b0;
-        Ta <= 0;
-        Tb <= 0;
-        end
-    else if (button)
-        y <= B | (A ^ button);
-end
 endmodule

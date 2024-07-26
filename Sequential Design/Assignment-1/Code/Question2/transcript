@@ -1,9 +1,10 @@
-# vsim -c -do "run -all; exit" tb_FSM 
-# Start time: 20:11:44 on Jul 14,2024
+# vsim -c -do "run -all;exit" tb_FSM 
+# Start time: 15:19:54 on Jul 26,2024
 # Loading work.tb_FSM
-# Loading work.FSM_wobs
+# Loading work.FSM
 # run -all
-# ** Note: $finish    : tb_FSM.v(73)
-#    Time: 170 ps  Iteration: 0  Instance: /tb_FSM
-# End time: 20:11:44 on Jul 14,2024, Elapsed time: 0:00:00
+# All Test Cases Passed Successfully
+# ** Note: $finish    : tb_FSM.v(89)
+#    Time: 335 ps  Iteration: 1  Instance: /tb_FSM
+# End time: 15:19:54 on Jul 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
