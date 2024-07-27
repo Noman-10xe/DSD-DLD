@@ -9,47 +9,91 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-2/Code/Question4
-vpulse_detector
-Z1 !s110 1721372861
+vd_ff
+Z1 !s110 1722077876
 !i10b 1
-!s100 Bk6fA7=BiL36G<?C7J_=n2
+!s100 4oF4n:TgfWRGnnaU?Lg@[2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IK[7f3m]Og3X7mk@e@A3NN3
+IA6c?XH^NnF47Wmh?ATB=V0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1721371226
-8pulse_detector.v
-Fpulse_detector.v
-!i122 69
-L0 3 65
+w1722074648
+8d_ff.v
+Fd_ff.v
+!i122 82
+L0 2 10
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1721372861.000000
-!s107 tb_pulse_detector.v|pulse_detector.v|
-Z6 !s90 pulse_detector.v|tb_pulse_detector.v|
+Z5 !s108 1722077876.000000
+!s107 tb_pulse_detector.v|pulse_detector.v|d_ff.v|d_ff2.v|
+Z6 !s90 d_ff2.v|d_ff.v|pulse_detector.v|tb_pulse_detector.v|
 !i113 1
 Z7 tCvgOpt 0
-vtb_pulse_detector
+vd_ff2
 R1
 !i10b 1
-!s100 2KUCE?1;>ZHz`WRNaRVeK1
+!s100 kbC_=HlinF54hUR@1BHjk1
 R2
-IDTU8=oD`<JRgoaa>IKCm70
+IP[0LCN]VC4m_bJAB@]XX@0
 R3
 R0
-w1721372859
-8tb_pulse_detector.v
-Ftb_pulse_detector.v
-!i122 69
-L0 1 48
+w1722074755
+8d_ff2.v
+Fd_ff2.v
+!i122 82
+L0 2 11
 R4
 r1
 !s85 0
 31
 R5
-Z8 !s107 tb_pulse_detector.v|pulse_detector.v|
+Z8 !s107 tb_pulse_detector.v|pulse_detector.v|d_ff.v|d_ff2.v|
+R6
+!i113 1
+R7
+vpulse_detector
+R1
+!i10b 1
+!s100 KZ_Xz[e4_R0EC9?M_S7YL1
+R2
+I1P?l52iPifVmM2Hbk@haa0
+R3
+R0
+w1722075861
+8pulse_detector.v
+Fpulse_detector.v
+!i122 82
+L0 3 15
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_pulse_detector
+R1
+!i10b 1
+!s100 Z]314=z67bAS?=XP688:E3
+R2
+I1?_I49iiZ9IJ^T1RGDQU31
+R3
+R0
+w1722077874
+8tb_pulse_detector.v
+Ftb_pulse_detector.v
+!i122 82
+L0 1 65
+R4
+r1
+!s85 0
+31
+R5
+R8
 R6
 !i113 1
 R7

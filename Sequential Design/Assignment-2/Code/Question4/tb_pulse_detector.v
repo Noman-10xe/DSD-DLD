@@ -8,41 +8,58 @@ pulse_detector m0 (.clk(clk), .rst(rst), .x(x), .y(y));
 always #5 clk = ~clk;
 
 initial begin
-    $dumpvars;
-    
     clk = 0;
     rst = 0;
-    x = 1;
-    #20;
+end
+
+initial begin
+    $dumpvars;
     
+    @(posedge clk);
     rst = 1;
-    #20;
+
+    repeat(4) @(posedge clk);
 
     rst = 0;
-    #10;
 
+    $display("Check the Output after reset");
+    if (y !=0 ) begin
+        $display("Incorrect Output after reset");
+    end
+    
+    @(posedge clk);
+    x = 1;
+
+    repeat(3) @(posedge clk);
     x = 0;
-    #20;
 
+    repeat(2) @(negedge clk);
+    if (y != 1) begin
+        @(negedge clk);
+        if (y != 0) begin
+            $display("Incorrect Output");
+            $finish;
+        end
+    end
+
+    @(posedge clk);
     x = 1;
-    #20;
 
+    repeat(5) @(posedge clk);
     x = 0;
-    #30;
 
-    x = 1;
-    #40;
-    
-    rst = 1;
-    #10;
-    
-    x = 0;    
-    #30;
-    
-    x = 1;
-    rst = 0;
-    #40;
+    repeat(2) @(negedge clk);
+    if (y != 1) begin
+        @(negedge clk);
+        if (y != 0) begin
+            $display("Incorrect Output");
+            $finish;
+        end
+    end
 
+
+    repeat(10) @(posedge clk);
+    $display("All Test Cases Passed!");
     $finish;
 end
 endmodule
