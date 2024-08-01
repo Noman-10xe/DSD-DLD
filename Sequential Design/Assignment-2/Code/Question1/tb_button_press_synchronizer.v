@@ -25,14 +25,16 @@
         @(posedge clk);
         bi = 1;
 
-        repeat (1.5) @(posedge clk)
+        @(posedge clk);
+        @(negedge clk)
         $display("Checking for Output Pulse");
         if (bo != 1) begin
             $display("Output is Incorrect Error: Line: 31");
             $finish;
             end
         
-        repeat (1.5) @(posedge clk);
+        @(posedge clk);
+        @(negedge clk)
         $display("Checking if Output had one cycle");
         if (bo != 0) begin
             $display("Output is Incorrect Error: Line: 38");

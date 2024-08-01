@@ -1,15 +1,14 @@
 # vsim -c -do "run -all;exit" tb_button_press_synchronizer 
-# Start time: 13:59:00 on Jul 27,2024
+# Start time: 16:00:37 on Aug 01,2024
 # Loading work.tb_button_press_synchronizer
 # Loading work.button_press_synchronizer
 # Loading work.d_ff2
 # Loading work.d_ff
 # run -all
 # Checking for Output Pulse
-# Checking for Output Pulse
 # Checking if Output had one cycle
 # All Test cases Passed!
-# ** Note: $finish    : tb_button_press_synchronizer.v(63)
-#    Time: 345 ps  Iteration: 1  Instance: /tb_button_press_synchronizer
-# End time: 13:59:00 on Jul 27,2024, Elapsed time: 0:00:00
+# ** Note: $finish    : tb_button_press_synchronizer.v(65)
+#    Time: 325 ps  Iteration: 1  Instance: /tb_button_press_synchronizer
+# End time: 16:00:37 on Aug 01,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

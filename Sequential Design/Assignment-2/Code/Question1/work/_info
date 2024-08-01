@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-2/Code/Question1
 vbutton_press_synchronizer
-Z1 !s110 1722070739
+Z1 !s110 1722510035
 !i10b 1
 !s100 __AHD[PKd<4VB:hK0fWSm0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IAVI6f=Ai_Q;FcR49=aNoF3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1722066608
+w1722510029
 8button_press_synchronizer.v
 Fbutton_press_synchronizer.v
-!i122 111
+!i122 116
 L0 3 53
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1722070739.000000
+Z5 !s108 1722510035.000000
 !s107 tb_button_press_synchronizer.v|d_ff.v|d_ff2.v|button_press_synchronizer.v|
 Z6 !s90 button_press_synchronizer.v|d_ff2.v|d_ff.v|tb_button_press_synchronizer.v|
 !i113 1
@@ -39,10 +39,10 @@ R2
 Ilg:UP10>OB<b1:eE04SS`3
 R3
 R0
-w1722022563
+w1722510026
 8d_ff.v
 Fd_ff.v
-!i122 111
+!i122 116
 L0 3 9
 R4
 r1
@@ -61,10 +61,10 @@ R2
 I=RTLibC;a`I9k0ojU8CQ@2
 R3
 R0
-w1722066667
+w1722510027
 8d_ff2.v
 Fd_ff2.v
-!i122 111
+!i122 116
 L0 3 10
 R4
 r1
@@ -78,16 +78,16 @@ R7
 vtb_button_press_synchronizer
 R1
 !i10b 1
-!s100 8m4^6mK=ECAH19;d`hJdE2
+!s100 NCjmKl?ZT82WZT1H;9f]03
 R2
-IQXGMm@z>C<0SUG]X_ZmiS3
+I=n4[]VBOLB>fN=U:DjQS41
 R3
 R0
-w1722070737
+w1722510033
 8tb_button_press_synchronizer.v
 Ftb_button_press_synchronizer.v
-!i122 111
-L0 2 65
+!i122 116
+L0 2 67
 R4
 r1
 !s85 0

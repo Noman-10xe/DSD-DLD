@@ -12,6 +12,6 @@
     assign Db = ~Qc & x;
     assign Dc = Qb & ~x;
 
-    assign y = Qc;
+    assign y = Qb & ~x;
 
     endmodule

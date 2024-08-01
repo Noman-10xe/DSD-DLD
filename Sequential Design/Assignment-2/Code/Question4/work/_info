@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/xe-user106/10x-Engineers/Remedial-Training/R3: DLD + DSD/Sequential Design/Assignment-2/Code/Question4
 vd_ff
-Z1 !s110 1722077876
+Z1 !s110 1722517538
 !i10b 1
 !s100 4oF4n:TgfWRGnnaU?Lg@[2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 w1722074648
 8d_ff.v
 Fd_ff.v
-!i122 82
+!i122 83
 L0 2 10
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1722077876.000000
+Z5 !s108 1722517538.000000
 !s107 tb_pulse_detector.v|pulse_detector.v|d_ff.v|d_ff2.v|
 Z6 !s90 d_ff2.v|d_ff.v|pulse_detector.v|tb_pulse_detector.v|
 !i113 1
@@ -39,10 +39,10 @@ R2
 IP[0LCN]VC4m_bJAB@]XX@0
 R3
 R0
-w1722074755
+w1722517418
 8d_ff2.v
 Fd_ff2.v
-!i122 82
+!i122 83
 L0 2 11
 R4
 r1
@@ -56,15 +56,15 @@ R7
 vpulse_detector
 R1
 !i10b 1
-!s100 KZ_Xz[e4_R0EC9?M_S7YL1
+!s100 c;`zkG11:=JC59[clL<df3
 R2
-I1P?l52iPifVmM2Hbk@haa0
+IGB^H3?nl30J>@lE:bJFSd3
 R3
 R0
-w1722075861
+w1722517521
 8pulse_detector.v
 Fpulse_detector.v
-!i122 82
+!i122 83
 L0 3 15
 R4
 r1
@@ -83,10 +83,10 @@ R2
 I1?_I49iiZ9IJ^T1RGDQU31
 R3
 R0
-w1722077874
+w1722510247
 8tb_pulse_detector.v
 Ftb_pulse_detector.v
-!i122 82
+!i122 83
 L0 1 65
 R4
 r1

@@ -1,5 +1,5 @@
 # vsim -c -do "run -all;exit" tb_pulse_detector 
-# Start time: 15:57:58 on Jul 27,2024
+# Start time: 18:05:51 on Aug 01,2024
 # Loading work.tb_pulse_detector
 # Loading work.pulse_detector
 # Loading work.d_ff2
@@ -8,6 +8,6 @@
 # Check the Output after reset
 # All Test Cases Passed!
 # ** Note: $finish    : tb_pulse_detector.v(63)
-#    Time: 265 ps  Iteration: 1  Instance: /tb_pulse_detector
-# End time: 15:57:58 on Jul 27,2024, Elapsed time: 0:00:00
+#    Time: 285 ps  Iteration: 1  Instance: /tb_pulse_detector
+# End time: 18:05:52 on Aug 01,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
