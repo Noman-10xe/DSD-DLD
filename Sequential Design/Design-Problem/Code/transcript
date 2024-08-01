@@ -1,10 +1,12 @@
-# vsim -c -do "run -all; exit" tb_stopwatch 
-# Start time: 15:29:38 on Jul 22,2024
+# vsim -c -do "run -all;exit" tb_stopwatch 
+# Start time: 23:03:45 on Aug 01,2024
 # Loading work.tb_stopwatch
 # Loading work.stopwatch
 # Loading work.counter9
 # Loading work.d_ff
 # Loading work.counter5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'sec1'. The port definition is at: stopwatch.v(2).
+#    Time: 0 us  Iteration: 0  Instance: /tb_stopwatch/dut File: tb_stopwatch.v Line: 11
 # run -all
 #  x : x x :  x
 #  0 : 0 0 :  0
@@ -6510,5 +6512,5 @@
 #  0 : 5 0 :  0
 # ** Note: $finish    : tb_stopwatch.v(27)
 #    Time: 650320 ms  Iteration: 0  Instance: /tb_stopwatch
-# End time: 15:29:38 on Jul 22,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# End time: 23:03:46 on Aug 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

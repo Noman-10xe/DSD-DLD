@@ -1,5 +1,5 @@
 
-module stopwatch (input clk, clr, output [3:0] min, sec0, deci, output [2:0] sec1);
+module stopwatch (input clk, clr, output [3:0] min, sec0, deci, sec1);
 
 //Deci
 counter9 decimal (.clk(clk), .rst(clr), .out(deci));
@@ -16,7 +16,7 @@ counter5 second_1 (.clk(clk_sec1), .rst(clr), .out(sec1));
 
 //Minutes
 wire clk_minute;
-assign clk_minute = (~sec1[2] & ~sec1[1] & ~sec1[0]);
+assign clk_minute = (~sec1[3] & ~sec1[2] & ~sec1[1] & ~sec1[0]);
 counter9 minute (.clk(clk_minute), .rst(clr), .out(min));
 
 endmodule
