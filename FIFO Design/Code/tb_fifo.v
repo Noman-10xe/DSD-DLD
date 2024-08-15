@@ -1,3 +1,4 @@
+
 module tb_fifo;
 
     // Parameters
@@ -47,8 +48,8 @@ module tb_fifo;
         rst = 1;
         @(posedge clk);
 
-        // Test case: Push to full
-        $display("Test case: Push to full");
+        // Test case: Pushing until Full
+        $display("Test case: Pushing Until full");
         for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
             @(posedge clk);
             push = 1;
@@ -56,64 +57,81 @@ module tb_fifo;
         end
         @(posedge clk);
         push = 0;
-        @(negedge clk)
+
+        @(negedge clk);
         if (!full) $display("Error: FIFO should be full");
         else $display("Passed");
 
-        // Test case: Pop to empty
-        $display("Test case: Pop to empty");
+        // Test case: Popping until empty
+        $display("Test case: Popping Until empty");
         for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
             @(posedge clk);
             pop = 1;
+            @(negedge clk);
+            if (data_out != i) $display("Error: FIFO data mismatch. Expected %d, Got %d", i, data_out);
         end
         @(posedge clk);
         pop = 0;
-        @(negedge clk)
+
+        @(negedge clk);
         if (!empty) $display("Error: FIFO should be empty");
         else $display("Passed");
 
         // Test case: Simultaneous push and pop
+        $display("Test case: Simultaneous push and pop");
         for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
             @(posedge clk);
             push = 1;
             pop = 1;
             data_in = i;
+            repeat(2) @(posedge clk);
+            if (data_out != i) $display("Error: FIFO data mismatch. Expected %0d, Got %0d", i, data_out);
         end
-        @(posedge clk);
+        @(posedge clk); 
         push = 0;
         pop = 0;
-        
 
-        // Test case: Overflow
-        $display("Test case: Overflow");
+        // Test Overflow
+        $display("Test Case: Overflow Detection");
         for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
             @(posedge clk);
             push = 1;
             data_in = i;
         end
+
+        @(negedge clk);
+        if (!overflow) $display("Error: FIFO should have Overflowed");
+        else $display("Passed");
+        @(posedge clk) push = 0;
         @(posedge clk);
-        push = 1;
+        pop = 0;
+
+        // Test Case: Underflow Detection
+        $display("Test Case: Underflow Detection");
+
+        // First, empty the FIFO completely
+        for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
+            @(posedge clk);
+            pop = 1;
+        end
+
         @(posedge clk);
-        push = 0;
-        if (!overflow) $display("Error: FIFO should have overflowed");
+        pop = 0; // Ensure pop is deasserted before testing underflow
+
+        // Now, perform extra pops to cause underflow
+        for (i = 0; i < 5; i = i + 1) begin
+            @(posedge clk);
+            pop = 1;
+        end
+        
+        @(negedge clk);
+        if (!underflow) $display("Error: FIFO should have underflowed");
         else $display("Passed");
 
-        // Test case: Underflow
-        $display("Test case: Underflow");
-        for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
-            @(posedge clk);
-            pop = 1;
-        end
-        @(posedge clk);
-        pop = 1;
-        @(posedge clk);
         pop = 0;
-        if (!underflow) $display("Error: FIFO should have underflowed");
-        else $display("Passed\n");
 
-        // End of test
-        $display("Congratulations, All test cases are now passing\n");
+        repeat(10) @(posedge clk)
+
         $finish;
     end
-
 endmodule

@@ -1,20 +1,18 @@
 # vsim -c -do "run -all;exit" tb_fifo 
-# Start time: 15:05:50 on Aug 09,2024
+# Start time: 23:59:43 on Aug 15,2024
 # Loading work.tb_fifo
 # Loading work.fifo
 # run -all
-# Test case: Push to full
+# Test case: Pushing Until full
 # Passed
-# Test case: Pop to empty
+# Test case: Popping Until empty
 # Passed
-# Test case: Overflow
+# Test case: Simultaneous push and pop
+# Test Case: Overflow Detection
 # Passed
-# Test case: Underflow
+# Test Case: Underflow Detection
 # Passed
-# 
-# Congratulations, All test cases are now passing
-# 
-# ** Note: $finish    : tb_fifo.v(116)
-#    Time: 495 ps  Iteration: 1  Instance: /tb_fifo
-# End time: 15:05:50 on Aug 09,2024, Elapsed time: 0:00:00
+# ** Note: $finish    : tb_fifo.v(135)
+#    Time: 705 ps  Iteration: 1  Instance: /tb_fifo
+# End time: 23:59:43 on Aug 15,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

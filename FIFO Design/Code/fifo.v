@@ -10,10 +10,12 @@ module fifo #(parameter DATA_SIZE = 8, parameter ADDRESS_SIZE = 3)
     reg [ADDRESS_SIZE-1:0] read_ptr, write_ptr;
     reg [ADDRESS_SIZE:0] status; // Extra bit for distinguishing full and empty
 
+    integer i;
+
     //Empty & Full Logic
     assign empty = (status == 0);
     assign full = (status == ADDRESS_DEPTH);
- 
+  
     // Overflow & Underflow Logic
     assign overflow = (push && full);
     assign underflow = (pop && empty); 
@@ -26,6 +28,9 @@ module fifo #(parameter DATA_SIZE = 8, parameter ADDRESS_SIZE = 3)
         read_ptr <= 0;
         write_ptr <= 0;
         status <= 0;
+        for (i = 0; i < ADDRESS_DEPTH; i = i + 1) begin
+            memory[i] <= {DATA_SIZE{1'b0}};
+        end
     end else begin
         if (push && pop) begin
             // If both push and pop occur at the same time
@@ -69,7 +74,7 @@ end
         else if (pop && !empty ) begin
             data_out = memory[read_ptr]; // Perform read immediately
         end else begin
-            data_out = 'bx; // X value when pop is not active or FIFO is empty
+            data_out = 8'b0; // 0 value when pop is not active or FIFO is empty
         end
     end
 
